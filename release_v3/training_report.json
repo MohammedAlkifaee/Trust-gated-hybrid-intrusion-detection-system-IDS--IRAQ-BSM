@@ -1,0 +1,56 @@
+{
+  "artifact_family": "scenario_lgbm_v1",
+  "artifact_version": "1.0.0",
+  "built_at": "2026-04-21 23:45:21",
+  "source_name": "/home/instantf2md/F2MD/f2md-results/features_intermessage_v2.csv",
+  "feature_count": 30,
+  "trained_family": "pos_speed",
+  "threshold": 0.9256893249821714,
+  "training_protocol": "small_scenario_stratified_holdout",
+  "warning": "Use for small labeled Baghdad/F2MD scenario validation; not a replacement for the full sender-disjoint multi-head release.",
+  "rows": 20174,
+  "train_rows": 15130,
+  "val_rows": 5044,
+  "label_counts": {
+    "0": 19463,
+    "1": 711
+  },
+  "validation_roc_auc": 0.999989609166101,
+  "validation_confusion_matrix": [
+    [
+      4864,
+      2
+    ],
+    [
+      1,
+      177
+    ]
+  ],
+  "validation_classification_report": {
+    "0": {
+      "precision": 0.9997944501541624,
+      "recall": 0.9995889847924373,
+      "f1-score": 0.9996917069160415,
+      "support": 4866.0
+    },
+    "1": {
+      "precision": 0.9888268156424581,
+      "recall": 0.9943820224719101,
+      "f1-score": 0.9915966386554622,
+      "support": 178.0
+    },
+    "accuracy": 0.9994052339413164,
+    "macro avg": {
+      "precision": 0.9943106328983102,
+      "recall": 0.9969855036321738,
+      "f1-score": 0.9956441727857519,
+      "support": 5044.0
+    },
+    "weighted avg": {
+      "precision": 0.9994074083335668,
+      "recall": 0.9994052339413164,
+      "f1-score": 0.9994060363866237,
+      "support": 5044.0
+    }
+  }
+}

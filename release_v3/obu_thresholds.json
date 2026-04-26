@@ -1,0 +1,8 @@
+{
+  "speed_abs_max": 80.0,
+  "acc_abs_max": 12.0,
+  "heading_rate_abs_max": 2.0,
+  "consistency_err_max": 5.0,
+  "dt_min": 0.0,
+  "dt_max": 2.0
+}

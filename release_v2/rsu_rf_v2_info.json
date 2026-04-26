@@ -1,0 +1,36 @@
+{
+  "features": [
+    "dt",
+    "speed_prev",
+    "speed_curr",
+    "delta_speed",
+    "dv",
+    "accel_prev",
+    "accel_curr",
+    "dacc",
+    "jerk",
+    "heading_prev",
+    "heading_curr",
+    "heading_rate",
+    "dtheta",
+    "dist",
+    "dx",
+    "dy",
+    "rate_msgs_per_s",
+    "pos_conf_x_curr",
+    "pos_conf_y_curr",
+    "spd_conf_x_curr",
+    "spd_conf_y_curr",
+    "acc_conf_x_curr",
+    "acc_conf_y_curr",
+    "head_conf_x_curr",
+    "head_conf_y_curr",
+    "anom_score_iforest"
+  ],
+  "metrics": {
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "best_thr_f1": 0.20089321678612473,
+    "class_report": "              precision    recall  f1-score   support\n\n  Normal (0)       1.00      1.00      1.00      2664\n  Attack (1)       1.00      1.00      1.00       310\n\n    accuracy                           1.00      2974\n   macro avg       1.00      1.00      1.00      2974\nweighted avg       1.00      1.00      1.00      2974\n"
+  }
+}

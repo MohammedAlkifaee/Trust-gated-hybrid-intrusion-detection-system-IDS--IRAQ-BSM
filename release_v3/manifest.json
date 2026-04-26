@@ -1,0 +1,11 @@
+{
+  "artifact_family": "scenario_lgbm_v1",
+  "artifact_version": "1.0.0",
+  "built_at": "2026-04-21 23:45:21",
+  "source_name": "/home/instantf2md/F2MD/f2md-results/features_intermessage_v2.csv",
+  "feature_count": 30,
+  "trained_family": "pos_speed",
+  "threshold": 0.9256893249821714,
+  "training_protocol": "small_scenario_stratified_holdout",
+  "warning": "Use for small labeled Baghdad/F2MD scenario validation; not a replacement for the full sender-disjoint multi-head release."
+}

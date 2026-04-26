@@ -1,0 +1,31 @@
+/MohammadAbbasShareef-115-198.pdf
+/rsu_trainer_all_in_one_v7.py.tar.gz
+/vanet_ids_v2.py.tar.gz
+
+# Python environment and caches
+/.venv/
+/__pycache__/
+*.py[cod]
+
+# Logs and runtime noise
+/logs/
+*.log
+
+# Local sandboxes and temporary outputs
+/sandbox_v2/
+/tmp_audit_selftest/
+/tmp_priority1_selftest/
+/tmp_priority1_small/
+/tmp_smoke_v3/
+/tmp_legacy_family_all.csv
+/tmp_legacy_family_pos_speed.csv
+
+# OS metadata
+.DS_Store
+
+# Large local archives and training workspace
+/results and models/Archive.zip
+/results and models/Newfolder11/
+
+# GitHub rejects files over 100 MB without Git LFS
+/release_all_v2/rsu_rf_v2.joblib

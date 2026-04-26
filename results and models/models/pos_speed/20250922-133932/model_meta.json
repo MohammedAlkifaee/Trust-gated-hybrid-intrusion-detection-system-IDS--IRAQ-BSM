@@ -1,0 +1,9 @@
+{
+  "family": "pos_speed",
+  "created": "20250922-133932",
+  "split_mode": "holdout_group",
+  "test_size": 0.2,
+  "ohe_version": false,
+  "attack_ids_filter": [],
+  "features_count": 58
+}

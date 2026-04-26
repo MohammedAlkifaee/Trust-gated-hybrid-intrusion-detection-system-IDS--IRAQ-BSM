@@ -1,0 +1,19 @@
+{
+  "fusion_mode": "OR_trust_gated_v2",
+  "params": {
+    "rsu_thr": 0.2009,
+    "rsu_soft": 0.1607,
+    "tsender_cut": 0.965,
+    "tpair_cut": 0.85
+  },
+  "models": {
+    "obu_thresholds": "obu_thresholds_v2.json",
+    "rsu_supervised": "rsu_rf_v2.joblib",
+    "rsu_info": "rsu_rf_v2_info.json",
+    "iforest": "iforest_v2.joblib"
+  },
+  "artifacts": {
+    "sender_trust": "trust_sender_v2.csv",
+    "pair_trust": "trust_pair_v2.csv"
+  }
+}

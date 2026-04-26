@@ -1,0 +1,36 @@
+{
+  "rows_total_labels": 20174,
+  "rows_eval_dt<=60.0": 20164,
+  "attacks_in_eval": 711,
+  "model_alerts": 742,
+  "model_metrics": {
+    "precision": 0.69,
+    "recall": 0.7201,
+    "f1": 0.7047,
+    "support_attacks": 711,
+    "TN": 19233,
+    "FP": 230,
+    "FN": 199,
+    "TP": 512
+  },
+  "rsu_metrics": {
+    "precision": 0.7193,
+    "recall": 0.7173,
+    "f1": 0.7183,
+    "support_attacks": 711,
+    "TN": 19264,
+    "FP": 199,
+    "FN": 201,
+    "TP": 510
+  },
+  "obu_metrics": {
+    "precision": 0.0286,
+    "recall": 0.0014,
+    "f1": 0.0027,
+    "support_attacks": 711,
+    "TN": 19429,
+    "FP": 34,
+    "FN": 710,
+    "TP": 1
+  }
+}
